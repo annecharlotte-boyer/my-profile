@@ -1,0 +1,131 @@
+/*Colors and font*/
+body { 
+  background-color: #FDFDFD;
+  color: #272D2D;
+  font-family: 'Spartan', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  margin: 100px;
+  }
+
+h1, h2, h3 {color: #21BF73; 
+			font-family: 'Hind Guntur', sans-serif;}
+
+h1 {
+ font-weight: lighter;
+ letter-spacing: 1px;
+ font-size: 50px;
+ padding: 20px;
+ }
+h2, h3 {
+ font-size: 35px;
+ margin-top: 80px;
+ margin-left: 80px;
+ padding-top: 50px;
+ }
+
+h3 {
+ text-align: center;
+}
+
+a {
+ text-decoration: none;
+ color : #26532B;
+ font-size: 17px;
+ }
+
+a:hover {
+	font-weight: bold;
+	color: #FD5E53;
+ }
+
+#moi {
+	display: block;
+	background: transparent url("images/photo_identité.jpg") no-repeat;
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+ }
+
+ /*Class design*/
+
+ 
+
+ .container {
+ 	width: 1000px;
+ 	margin: 50px auto;
+ }
+ .div1-center {
+ 	text-align: center;
+ }
+
+ .div1-border {
+ 	border-top: 4px solid #B0EACD;
+    border-right: 4px solid #B0EACD;
+    border-bottom: 4px solid #B0EACD;
+    border-left: 4px solid #B0EACD;
+    padding-bottom: 40px;
+    margin: 0px;
+   }
+
+ .align-box {
+  	text-align: center;
+  	padding-bottom: 20px;
+  }
+
+  .box-shadow {
+  	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  	padding-bottom: 20px;
+   }
+
+  .icone-style {
+  	list-style-type: none;
+  	text-align: center;
+  	font-size: 17px; 
+  }
+
+  .contact-center {
+  	text-align: center;
+  }
+
+  #emlvyo-bold {
+  	font-weight: bold;
+  }
+
+  #dassault-bold {
+  	font-weight: bold;
+  }
+
+  #homework-bold {
+  	font-weight: bold;
+  }
+
+  #bac-bold {
+  	font-weight: bold;
+  }
+
+  #emlv-bold {
+  	font-weight: bold;
+  }
+
+  #volunter-bold {
+  	font-weight: bold;
+  }
+
+  @media (max-width: 960px) {
+     .container {
+ 	     width: 700px
+         }
+       }
+
+  @media (max-width: 720px) {
+     .container {
+ 	     width: 500px
+         }
+      }
+
+  @media (max-width: 540px) {
+     .container {
+ 	     width: 300px
+         }
+      }
